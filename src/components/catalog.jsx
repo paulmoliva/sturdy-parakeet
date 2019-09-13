@@ -14,7 +14,15 @@ const columns = [
     dataField: 'price',
     text: 'Product Price',
     filter: textFilter(),
-    sort: true
+    sort: true,
+    sortFunc: (a, b, order, dataField, rowA, rowB) => {
+      const numa = parseInt(a)
+      const numb = parseInt(b)
+      if (order === 'asc') {
+        return numb - numa;
+      }
+      return numa - numb; // desc
+    }
   },
   {
     dataField: 'stock',
