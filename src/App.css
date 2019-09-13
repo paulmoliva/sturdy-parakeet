@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+.my-gallery-class {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  width: 30%;
+  height: 360px
+}

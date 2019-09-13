@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.23.2",
+    "lodash": "^4.17.15",
     "react": "^16.9.0",
+    "react-bootstrap-table-next": "^3.2.0",
+    "react-bootstrap-table2-filter": "^1.2.0",
     "react-dom": "^16.9.0",
+    "react-masonry-component": "^6.2.1",
+    "react-request": "^3.1.2",
     "react-scripts": "3.1.1"
   },
   "scripts": {
